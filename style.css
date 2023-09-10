@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%)
+
+}
+h1{
+    color: darkblue;
+}
+svg{
+    align-self: flex-end;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+  
+    width: 35%;
+    height: 80vh;
+    background-color: rgb(252, 252, 252);
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px 0px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width:100% ;
+    height : auto;
+
+}
+form{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    width: 100%;
+    height: auto;
+
+
+}
+.user{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.password{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width:90%;
+    padding: 10px;
+    margin: 8px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+input:hover{
+    border-bottom:2px solid #34aadc !important;
+}
+input::placeholder{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+input:focus-visible{
+    outline: none!important;
+    
+}
+button {
+    padding: 7px;
+    width:32%;
+    background-color: rgba(89, 89, 226, 0.979);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+}
+button:hover{
+    background-color:#4f4fa0b3 !important;
+    font-weight: bold;
+    
+}
+.reset-contra{
+    width: 100%;
+    margin-left: 5px;
+    padding: 5px;
+    color: rgba(89, 89, 226, 0.979);
+    font-size: small ;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+.reset-contra a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+.reset-contra a:hover{
+    text-decoration: underline;
+}
